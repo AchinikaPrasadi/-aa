@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | British Psychology Campus</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        padding-top: 70px;
+        background: #f8f9fa;
+      }
+
+      /* Hero Section */
+      .about-hero {
+        background: url("https://tse3.mm.bing.net/th/id/OIP.GNAQHOWmreery-Eip65fzQHaEd?w=2230&h=1345&rs=1&pid=ImgDetMain&o=7&rm=3")
+          center/cover no-repeat;
+        height: 50vh;
+        position: relative;
+        color: white;
+        display: flex;
+        align-items: center;
+      }
+      .about-hero::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 31, 63, 0.75);
+      }
+      .about-hero .container {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+      }
+
+      .section-title {
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: bold;
+        font-size: 2rem;
+        color: #001f3f;
+      }
+      .section-title::after {
+        content: "";
+        width: 60px;
+        height: 3px;
+        background: #d4af37;
+        display: block;
+        margin: 10px auto;
+      }
+
+      .about-box {
+        background: white;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+        height: 100%;
+      }
+      .about-box h3 {
+        color: #001f3f;
+        margin-bottom: 15px;
+      }
+      .about-box p {
+        color: #333;
+        font-size: 1.2rem;
+        line-height: 1.6;
+      }
+
+      .about-box img,
+      .row img {
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- NAVBAR LOAD -->
+    <div id="navbar"></div>
+
+    <!-- HERO -->
+    <section class="about-hero">
+      <div class="container">
+        <h1 class="display-5 fw-bold">About Our Campus</h1>
+        <p class="lead">Shaping the future of psychology education</p>
+      </div>
+    </section>
+
+    <!-- ABOUT CONTENT -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="section-title">Who We Are</h2>
+
+        <div class="row align-items-center mb-5">
+          <div class="col-md-6">
+            <img src="assets/Vision1.jpeg" class="img-fluid shadow rounded" />
+          </div>
+          <div class="col-md-6">
+            <div class="about-box">
+              <h4>Our Vision</h4>
+              <p>
+                To be a leading institution in psychology education, fostering
+                innovation, critical thinking and global mental health
+                awareness.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center mb-5 flex-md-row-reverse">
+          <div class="col-md-6">
+            <img src="assets/mission3.avif" class="img-fluid shadow rounded" />
+          </div>
+          <div class="col-md-6">
+            <div class="about-box">
+              <h4>Our Mission</h4>
+              <p>
+                To provide world-class psychology education with practical
+                skills, empowering students for professional success.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img
+              src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+              class="img-fluid shadow rounded"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="about-box">
+              <h4>Our Aims</h4>
+              <p>
+                To develop ethical professionals, promote research and create a
+                supportive learning environment for all students.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="bg-light py-5 text-center">
+      <div class="container">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="about-box">
+              <h5>🎓</h5>
+              <h5><b>Qualified Lecturers</b></h5>
+              <p>Experienced professionals in psychology field.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-box">
+              <h5>🌍</h5>
+              <h5><b>Global Standards</b></h5>
+              <p>Internationally recognized curriculum.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="about-box">
+              <h5>💼</h5>
+              <h5><b>Career Support</b></h5>
+              <p>Internships and job placement guidance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER LOAD -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
